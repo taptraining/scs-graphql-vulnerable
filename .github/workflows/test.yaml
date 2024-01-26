@@ -52,7 +52,7 @@ jobs:
 
   build:
     runs-on: ubuntu-22.04
-    needs: test
+    needs: [test, aqua]
     steps:
       - uses: actions/checkout@v3
       
